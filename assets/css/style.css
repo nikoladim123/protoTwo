@@ -8,7 +8,7 @@ body{
 }
 
 nav{
-  height: 8.778vw;
+  height: 7.32vw;
   background-color: rgb(111,48,255);
   font-family:'Poppins Regular';
   border-bottom: 1px solid rgb(223,221,228);
@@ -18,7 +18,7 @@ nav{
   width: 18.65vw;
   height: 5.19vw;
   margin-left: 2.926vw;
-  margin-top: 2.56vw;
+  margin-top: 1.1vw;
 }
 
 .contact{
@@ -26,7 +26,7 @@ nav{
   flex-direction: row;
   float: right;
   justify-content: space-around;
-  margin-top: 3.657vw;
+  margin-top: 2.1vw;
   margin-right: 4.169vw;
   color: white;
   font-size: 1.3167vw;
@@ -58,10 +58,11 @@ main{
   height: 100%;
 }
 video{
+  transition: 5s;
   position: relative;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  /* object-fit: fill; */
 }
 .redVidDiv,.BeYouTyDiv,.solidusDiv{
   transition: 1s;
@@ -96,7 +97,7 @@ video{
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(218,217,228);
   opacity: 0;
   z-index: 1;
   display: none;
@@ -115,7 +116,7 @@ video{
 .XlineOne {
     margin-top: 50%;
     transform: rotateZ(45deg);
-    background-color: white;
+    background-color: blue;
     width: 100%;
     height: 10px;
     border-radius: 3px;
@@ -123,7 +124,7 @@ video{
 .XlineTwo {
     margin-top: -10px;
     transform: rotateZ(-45deg);
-    background-color: white;
+    background-color: blue;
     width: 100%;
     height: 10px;
     border-radius: 3px;
