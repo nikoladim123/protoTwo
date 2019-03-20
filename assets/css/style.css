@@ -1,0 +1,134 @@
+@font-face {
+  font-family:'Poppins Regular';
+  font-display: auto;
+  src:url('../fonts/Poppins-Regular.otf');
+}
+body{
+  margin: 0;
+}
+
+nav{
+  height: 8.778vw;
+  background-color: rgb(111,48,255);
+  font-family:'Poppins Regular';
+  border-bottom: 1px solid rgb(223,221,228);
+}
+
+.logo{
+  width: 18.65vw;
+  height: 5.19vw;
+  margin-left: 2.926vw;
+  margin-top: 2.56vw;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: space-around;
+  margin-top: 3.657vw;
+  margin-right: 4.169vw;
+  color: white;
+  font-size: 1.3167vw;
+}
+.contact:hover{
+  cursor: pointer;
+}
+.contactImg{
+  margin-left: 1.463vw;
+  width: 3.365vw;
+  height: 3.657vw;
+}
+/* main */
+main{
+  background-image: url("../images/bg.jpg");
+  background-size: 100% 100%;
+  height: 42.355vw;
+  padding-top: 0.1px;
+}
+.carBox{
+  margin-top: 2vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.carBox img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+video{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.redVidDiv,.BeYouTyDiv,.solidusDiv{
+  transition: 1s;
+  position: relative;
+  left: 0;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  /* overflow: hidden; */
+  border-radius: 2vw;
+  /* border: 1px solid red; */
+  width: 17.41vw;
+  height: 36.795vw;
+}
+.redVidDiv:hover,.BeYouTyDiv:hover,.solidusDiv:hover{
+  width: 20vw !important;
+  height: 42vw !important;
+  cursor: pointer;
+}
+.shadowLayer {
+    transition: 1s;
+    width: 15vw;
+    height: 35vw;
+    position: absolute;
+    top: 1vw;
+    left: 1.2vw;
+    /* z-index: 1; */
+    box-shadow: 0px 0px 103px 33px rgba(0,0,0,0.35);
+}
+
+.blackLayer{
+  transition: 1s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  opacity: 0;
+  z-index: 1;
+  display: none;
+}
+.exitButton {
+    position: relative;
+    float: right;
+    left: -8vw;
+    top: 3vw;
+    width: 5vw;
+    height: 5vw;
+}
+.exitButton:hover{
+  cursor: pointer;
+}
+.XlineOne {
+    margin-top: 50%;
+    transform: rotateZ(45deg);
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 3px;
+}
+.XlineTwo {
+    margin-top: -10px;
+    transform: rotateZ(-45deg);
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 3px;
+}
+/* someContent */
+.someContent{
+  margin-top: 20vw;
+}
