@@ -13,23 +13,26 @@ var exitButton = document.getElementsByClassName('exitButton')[0];
 exitButton.addEventListener('click',()=>{
   redVid.src = '';
   beyoutyVid.src = '';
-  redVidDiv.style.left = '0';
   BeYouTyDiv.style.left = '0';
-  redVidDiv.style.width = '17.41vw';
   BeYouTyDiv.style.width = '17.41vw';
-  redVidDiv.style.height = '36.795vw';
   BeYouTyDiv.style.height = '36.795vw';
+  BeYouTyDiv.style.zIndex = '0';
+  beyoutyVid.style.left = '0vw';
+  beyoutyVid.style.top = '0vw';
+
+  redVidDiv.style.left = '0';
+  redVidDiv.style.width = '17.41vw';
+  redVidDiv.style.height = '36.795vw';
   redVid.style.width = '100%';
   redVid.style.height = '100%';
   redVid.style.left = '0';
+  redVid.style.top = '0vw';
   beyoutyVid.style.width = '100%';
   beyoutyVid.style.height = '100%';
   redVidDiv.style.zIndex = '0';
-  BeYouTyDiv.style.zIndex = '0';
   shadowLayer[0].style.display = 'block';
   shadowLayer[1].style.display = 'block';
   shadowLayer[2].style.display = 'block';
-
 
 
   blackLayer.style.opacity = '0';
@@ -71,6 +74,7 @@ BeYouTyDiv.addEventListener('click',function(){
   BeYouTyDiv.style.width = '20vw';
   BeYouTyDiv.style.height = '42vw';
   BeYouTyDiv.style.zIndex = '2';
+
   blackLayer.style.display = 'block';
 
   shadowLayer[0].style.display = 'none';
@@ -84,8 +88,10 @@ BeYouTyDiv.addEventListener('click',function(){
   },20);
 
   setTimeout(function(){
-    beyoutyVid.style.height = 'auto';
-    beyoutyVid.style.width = 'auto';
+    beyoutyVid.style.width = '28.6vw';
+    beyoutyVid.style.height = '45.6vw';
+    beyoutyVid.style.left = '-6vw';
+    beyoutyVid.style.top = '-2vw';
     beyoutyVid.src = 'assets/video/nailsOne.webm';
   },900);
 
