@@ -57,7 +57,8 @@ redVidDiv.addEventListener('click',function(){
 
   setTimeout(function(){
     redVid.src = 'assets/video/protoFixd.webm';
-    redVid.style.left = '-5vw';
+    redVid.style.left = '-6vw';
+    redVid.style.top = '-2vw';
     redVid.style.width = '28.6vw';
     redVid.style.height = '45.6vw'
   },900);
@@ -65,6 +66,7 @@ redVidDiv.addEventListener('click',function(){
 
 });
 
+// beyouty
 BeYouTyDiv.addEventListener('click',function(){
   BeYouTyDiv.style.width = '20vw';
   BeYouTyDiv.style.height = '42vw';
