@@ -152,3 +152,58 @@ video{
   top: 0;
   z-index: 10;
 }
+@media (orientation:portrait) {
+  main{
+    background-image: url("../images/mobile/bg.jpg");
+    height: auto;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+  }
+  .carBox {
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  video{
+    object-fit: fill;
+  }
+  .redVidDiv, .BeYouTyDiv, .solidusDiv {
+    width: 100%;
+    height: 100vh;
+    margin-top: 0vw;
+  }
+  .shadowLayer {
+    width: 59vw;
+    height: 139vw;
+    top: 3vw;
+    left: 5.2vw;
+  }
+  nav{
+    height: 20.32vw;
+  }
+  .logo {
+    width: 35.65vw;
+    height: 11.19vw;
+    margin-top: 3.1vw;
+  }
+  .contact{
+    margin-top: 4.1vw;
+    font-size: 3.3167vw;
+  }
+  .contactImg {
+    margin-left: 1.463vw;
+    width: 8.365vw;
+    height: 7.657vw;
+  }
+  .mobileExit{
+    display: none;
+  }
+  .redVidDiv:hover,.BeYouTyDiv:hover,.solidusDiv:hover{
+    width: 100% !important;
+    height: 100vh !important;
+    cursor: pointer;
+  }
+}
