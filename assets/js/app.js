@@ -144,11 +144,11 @@ BeYouTyDiv.addEventListener('click',function(){
     beyoutyVid.style.height = '45.6vw';
     beyoutyVid.style.left = '-6vw';
     beyoutyVid.style.top = '-2vw';
-    beyoutyVid.src = 'assets/video/nailsOne.webm';
+    beyoutyVid.src = 'assets/video/nailsOne.mp4';
 
     setTimeout(function(){
       BeYouTyDiv.style.opacity = '1';
-      beyoutyVid.play();
+      // beyoutyVid.play();
     },100);
   },900);
 
@@ -162,12 +162,10 @@ function mobileExit(){
   }
 }
 
-function playy(){
-  redVid.src = 'assets/video/protoFixd.webm';
-}
+
 window.onload = function(){
   if(window.innerHeight > window.innerWidth){
     redVid.src = 'assets/video/protoFixd.webm';
-    beyoutyVid.src = 'assets/video/nailsOne.webm';
+    beyoutyVid.src = 'assets/video/nailsOne.mp4';
   }
 }
